@@ -7,12 +7,6 @@ const people = [
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
 
-const peopleName = people.map((eachName = []) => {
-  for (let i = 0; i < people.length; i++){
-    eachName.name[people[i].name]
-  }
-  console.log(eachName)
-  return eachName
-})
-
+const peopleName = people.map((innerName) => innerName.name)
 console.log(peopleName)
+
